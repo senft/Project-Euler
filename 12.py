@@ -3,8 +3,8 @@
 
 
 from collections import Counter
-
 from utils import factorize
+
 
 def triangle(n):
     return (n * (n + 1)) / 2
