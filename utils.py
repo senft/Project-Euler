@@ -19,6 +19,7 @@ def memoize(fn):
     return memoized
 
 
+@memoize
 def factorize(n):
     factors = [1]
     while n > 1:
@@ -30,6 +31,7 @@ def factorize(n):
     return factors
 
 
+@memoize
 def is_prime(n):
     for i in xrange(2, int(sqrt(n)) + 1):
         if n % i == 0:
