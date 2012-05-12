@@ -18,9 +18,6 @@ def len_sequence(n):
 
 
 def main():
-    #for i in range(1, MAX):
-    #    print i, len_sequence(i)
-
     print max([(len_sequence(n), n) for n in xrange(1, MAX)])
 
 if __name__ == '__main__':
